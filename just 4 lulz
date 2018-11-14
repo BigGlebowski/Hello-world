@@ -1,0 +1,12 @@
+import random
+a = "meren loh"
+b = "vlad loh"
+c = "anton loh"
+#кто же будет лохом
+d =random.randint(0,100)
+if d <= 33:
+    print (a)
+elif 34 <= d <= 66:
+    print(b)
+else:
+    print(c)
